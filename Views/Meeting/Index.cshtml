@@ -1,0 +1,50 @@
+@model IEnumerable<Meeting>
+
+<div class="meeting-list">
+    <h1>Toplantı Listesi</h1>
+    <div class="create-meeting">
+        <a asp-controller="Meeting" asp-action="Add" class="btn-create">
+            <i class="fas fa-plus"></i> Yeni Toplantı Oluştur
+        </a>
+    </div>
+    
+    <div class="meetings-grid">
+        @foreach (var meeting in Model)
+        {
+            <div class="meeting-card">
+                <div class="meeting-header">
+                    <h2 class="meeting-title">@meeting.Name</h2>
+                    <span class="meeting-type">@meeting.Type</span>
+                </div>
+                
+                <div class="meeting-details">
+                    <div class="meeting-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>@meeting.Location</span>
+                    </div>
+                    <div class="meeting-info">
+                        <i class="fas fa-calendar"></i>
+                        <span>@meeting.Date.ToString("dd/MM/yyyy HH:mm")</span>
+                    </div>
+                </div>
+                
+                <div class="meeting-actions">
+                    <a asp-action="Join" asp-route-MeetingId="@meeting.Id" 
+                       class="btn btn-primary"
+                       onclick="handleJoinClick(event, @User.Identity?.IsAuthenticated.ToString().ToLower())"
+                       onmouseover="handleJoinHover(event, @User.Identity?.IsAuthenticated.ToString().ToLower())"
+                       onmouseleave="handleJoinLeave()">
+                        <i class="fas fa-sign-in-alt"></i> Katıl
+                    </a>
+                    <a asp-controller="Meeting" asp-action="Detail" asp-route-MeetingId="@meeting.Id" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i> Detaylar
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Meeting/Index.js"></script>
+}

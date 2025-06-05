@@ -1,0 +1,184 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Account/Login.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Account\Login.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1766"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 20:51:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Account/Login.vxigklucor.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Account\Login.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vxigklucor"},{"Name":"integrity","Value":"sha256-HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8="},{"Name":"label","Value":"_content/MeetingApp/css/Account/Login.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1766"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 20:51:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Account/Register.4vm7zfv4l5.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Account\Register.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4vm7zfv4l5"},{"Name":"integrity","Value":"sha256-gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY="},{"Name":"label","Value":"_content/MeetingApp/css/Account/Register.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2061"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 21:00:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Account/Register.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Account\Register.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2061"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 21:00:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Home/About.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Home\About.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3375"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 16:35:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Home/About.ewrsm8djxi.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Home\About.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ewrsm8djxi"},{"Name":"integrity","Value":"sha256-wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY="},{"Name":"label","Value":"_content/MeetingApp/css/Home/About.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3375"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 16:35:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Home/Index.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Home\Index.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j088X5C51\u002Bn2/5IcMz1gvlUS/mWLf4BE0bL\u002BBSlfkfQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9569"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j088X5C51\u002Bn2/5IcMz1gvlUS/mWLf4BE0bL\u002BBSlfkfQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 17:43:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Home/Index.td4pat3z17.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Home\Index.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"td4pat3z17"},{"Name":"integrity","Value":"sha256-j088X5C51\u002Bn2/5IcMz1gvlUS/mWLf4BE0bL\u002BBSlfkfQ="},{"Name":"label","Value":"_content/MeetingApp/css/Home/Index.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9569"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j088X5C51\u002Bn2/5IcMz1gvlUS/mWLf4BE0bL\u002BBSlfkfQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 17:43:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Meeting/Add.9umntelpka.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Meeting\Add.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9umntelpka"},{"Name":"integrity","Value":"sha256-YZiJ\u002BXhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE="},{"Name":"label","Value":"_content/MeetingApp/css/Meeting/Add.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1853"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YZiJ\u002BXhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 20:35:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Meeting/Add.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Meeting\Add.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YZiJ\u002BXhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1853"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YZiJ\u002BXhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 20:35:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Meeting/Detail.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Meeting\Detail.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3929"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 14:56:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Meeting/Detail.jfh7vfkht2.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Meeting\Detail.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jfh7vfkht2"},{"Name":"integrity","Value":"sha256-ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro="},{"Name":"label","Value":"_content/MeetingApp/css/Meeting/Detail.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3929"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 14:56:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Meeting/Index.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Meeting\Index.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5636"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 16:11:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Meeting/Index.e3qojzhit4.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Meeting\Index.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e3qojzhit4"},{"Name":"integrity","Value":"sha256-5nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw="},{"Name":"label","Value":"_content/MeetingApp/css/Meeting/Index.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5636"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 16:11:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Meeting/Participants.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Meeting\Participants.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AdnGWUVtswfH/iiRdBwJZYfVscZe2D\u002BJZIaX6eP1jsA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022AdnGWUVtswfH/iiRdBwJZYfVscZe2D\u002BJZIaX6eP1jsA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 15:51:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/Meeting/Participants.v0ivye6gsf.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Meeting\Participants.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v0ivye6gsf"},{"Name":"integrity","Value":"sha256-AdnGWUVtswfH/iiRdBwJZYfVscZe2D\u002BJZIaX6eP1jsA="},{"Name":"label","Value":"_content/MeetingApp/css/Meeting/Participants.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4143"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022AdnGWUVtswfH/iiRdBwJZYfVscZe2D\u002BJZIaX6eP1jsA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 15:51:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/site.41ov3r17fg.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"41ov3r17fg"},{"Name":"integrity","Value":"sha256-mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y="},{"Name":"label","Value":"_content/MeetingApp/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2904"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 15:55:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2904"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 15:55:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Account/Login.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Account\Login.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-t3FeCGzakRPFrzv9\u002Bw723B3NZ7F5iatYlDiNxlGo9L0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1183"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022t3FeCGzakRPFrzv9\u002Bw723B3NZ7F5iatYlDiNxlGo9L0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 19:27:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Account/Login.t3c0hwmvsa.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Account\Login.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t3c0hwmvsa"},{"Name":"integrity","Value":"sha256-t3FeCGzakRPFrzv9\u002Bw723B3NZ7F5iatYlDiNxlGo9L0="},{"Name":"label","Value":"_content/MeetingApp/js/Account/Login.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1183"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022t3FeCGzakRPFrzv9\u002Bw723B3NZ7F5iatYlDiNxlGo9L0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 19:27:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Account/Register.84gli0p5om.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Account\Register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"84gli0p5om"},{"Name":"integrity","Value":"sha256-2GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA="},{"Name":"label","Value":"_content/MeetingApp/js/Account/Register.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1941"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 19:26:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Account/Register.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Account\Register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1941"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 19:26:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Meeting/Add.3mmn0mqgi5.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Meeting\Add.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3mmn0mqgi5"},{"Name":"integrity","Value":"sha256-O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q="},{"Name":"label","Value":"_content/MeetingApp/js/Meeting/Add.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1737"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 19:31:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Meeting/Add.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Meeting\Add.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1737"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 19:31:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Meeting/Detail.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Meeting\Detail.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"566"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 14:56:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Meeting/Detail.kpojma12le.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Meeting\Detail.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kpojma12le"},{"Name":"integrity","Value":"sha256-2NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8="},{"Name":"label","Value":"_content/MeetingApp/js/Meeting/Detail.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"566"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 14:56:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Meeting/Index.h1r5620z5e.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Meeting\Index.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h1r5620z5e"},{"Name":"integrity","Value":"sha256-JeYyu\u002BkDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo="},{"Name":"label","Value":"_content/MeetingApp/js/Meeting/Index.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1536"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JeYyu\u002BkDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 17:27:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/Meeting/Index.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Meeting\Index.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JeYyu\u002BkDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1536"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JeYyu\u002BkDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 05 Jun 2025 17:27:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/site.5ipweew5fc.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ipweew5fc"},{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="},{"Name":"label","Value":"_content/MeetingApp/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 17:59:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MeetingApp/js/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-47DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"0"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002247DEQpj8HBSa\u002B/TImW\u002B5JCeuQeRkm5NMpJWZG3hSuFU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 17:59:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

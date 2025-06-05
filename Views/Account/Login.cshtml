@@ -1,0 +1,29 @@
+@model User
+
+@{
+    ViewData["Title"] = "Giriş";
+}
+
+<div class="login-container">
+    <h2 class="login-title">Giriş Yap</h2>
+    <div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+    <form asp-action="Login" method="post">
+        <div class="form-group">
+            <label asp-for="Email" class="form-label">E-posta</label>
+            <input asp-for="Email" class="form-control" type="email" required />
+            <span asp-validation-for="Email" class="validation-error"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password" class="form-label">Şifre</label>
+            <input asp-for="Password" class="form-control" type="password" required />
+            <span asp-validation-for="Password" class="validation-error"></span>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn-login">Giriş Yap</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/js/Account/Login.js"></script>
+} 

@@ -1,0 +1,1567 @@
+{
+  "Version": 1,
+  "Hash": "1eiZnqq3thE43nwwsC3jYJ/5iMrz4bOm/+bi90mJNpE=",
+  "Source": "MeetingApp",
+  "BasePath": "_content/MeetingApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MeetingApp\\wwwroot",
+      "Source": "MeetingApp",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Account\\Login.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/Account/Login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vxigklucor",
+      "Integrity": "HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Account\\Login.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Account\\Register.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/Account/Register#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4vm7zfv4l5",
+      "Integrity": "gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Account\\Register.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Home\\About.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/Home/About#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ewrsm8djxi",
+      "Integrity": "wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Home\\About.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Home\\Index.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/Home/Index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "td4pat3z17",
+      "Integrity": "j088X5C51+n2/5IcMz1gvlUS/mWLf4BE0bL+BSlfkfQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Home\\Index.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Add.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/Meeting/Add#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9umntelpka",
+      "Integrity": "YZiJ+XhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Meeting\\Add.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Detail.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/Meeting/Detail#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jfh7vfkht2",
+      "Integrity": "ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Meeting\\Detail.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Index.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/Meeting/Index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e3qojzhit4",
+      "Integrity": "5nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Meeting\\Index.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Participants.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/Meeting/Participants#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v0ivye6gsf",
+      "Integrity": "AdnGWUVtswfH/iiRdBwJZYfVscZe2D+JZIaX6eP1jsA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Meeting\\Participants.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\site.css",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "41ov3r17fg",
+      "Integrity": "mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Account\\Login.js",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "js/Account/Login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t3c0hwmvsa",
+      "Integrity": "t3FeCGzakRPFrzv9+w723B3NZ7F5iatYlDiNxlGo9L0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Account\\Login.js"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Account\\Register.js",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "js/Account/Register#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "84gli0p5om",
+      "Integrity": "2GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Account\\Register.js"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Add.js",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "js/Meeting/Add#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3mmn0mqgi5",
+      "Integrity": "O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Meeting\\Add.js"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Detail.js",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "js/Meeting/Detail#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kpojma12le",
+      "Integrity": "2NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Meeting\\Detail.js"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Index.js",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "js/Meeting/Index#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h1r5620z5e",
+      "Integrity": "JeYyu+kDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Meeting\\Index.js"
+    },
+    {
+      "Identity": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\site.js",
+      "SourceId": "MeetingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\",
+      "BasePath": "_content/MeetingApp",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/Account/Login.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Account\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 20:51:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8="
+        }
+      ]
+    },
+    {
+      "Route": "css/Account/Login.vxigklucor.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Account\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 20:51:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vxigklucor"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Account/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HVQBCyTrvdnUche/AZzuHfUH7vJI6nWbznCmCIemby8="
+        }
+      ]
+    },
+    {
+      "Route": "css/Account/Register.4vm7zfv4l5.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Account\\Register.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:00:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4vm7zfv4l5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Account/Register.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY="
+        }
+      ]
+    },
+    {
+      "Route": "css/Account/Register.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Account\\Register.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:00:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gAF1xqyr0tTYl4rWsNmdTrTeCeapWAld8rJiLSTRhlY="
+        }
+      ]
+    },
+    {
+      "Route": "css/Home/About.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Home\\About.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 16:35:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY="
+        }
+      ]
+    },
+    {
+      "Route": "css/Home/About.ewrsm8djxi.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Home\\About.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3375"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 16:35:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewrsm8djxi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Home/About.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wv3mO3jMZQ/FG2PzzdwcH0cXGGpz1/C873Lz3c5pKQY="
+        }
+      ]
+    },
+    {
+      "Route": "css/Home/Index.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Home\\Index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9569"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j088X5C51+n2/5IcMz1gvlUS/mWLf4BE0bL+BSlfkfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 17:43:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j088X5C51+n2/5IcMz1gvlUS/mWLf4BE0bL+BSlfkfQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Home/Index.td4pat3z17.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Home\\Index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9569"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j088X5C51+n2/5IcMz1gvlUS/mWLf4BE0bL+BSlfkfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 17:43:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "td4pat3z17"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Home/Index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j088X5C51+n2/5IcMz1gvlUS/mWLf4BE0bL+BSlfkfQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/Meeting/Add.9umntelpka.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Add.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YZiJ+XhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 20:35:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9umntelpka"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Meeting/Add.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YZiJ+XhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Meeting/Add.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Add.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1853"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YZiJ+XhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 20:35:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YZiJ+XhAIQtAJ5gCp9HlvRPksuhg8ssNfUSeizknGDE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Meeting/Detail.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Detail.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 14:56:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro="
+        }
+      ]
+    },
+    {
+      "Route": "css/Meeting/Detail.jfh7vfkht2.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Detail.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 14:56:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jfh7vfkht2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Meeting/Detail.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ARF8ldaSTW7FlqTvMyK1C6LtsNsJeUiaD8hroJv5Mro="
+        }
+      ]
+    },
+    {
+      "Route": "css/Meeting/Index.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 16:11:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw="
+        }
+      ]
+    },
+    {
+      "Route": "css/Meeting/Index.e3qojzhit4.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 16:11:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3qojzhit4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Meeting/Index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5nbV368qqNm2XcnPAym6JTxV6WFHO5IzbCionVElCRw="
+        }
+      ]
+    },
+    {
+      "Route": "css/Meeting/Participants.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Participants.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AdnGWUVtswfH/iiRdBwJZYfVscZe2D+JZIaX6eP1jsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 15:51:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AdnGWUVtswfH/iiRdBwJZYfVscZe2D+JZIaX6eP1jsA="
+        }
+      ]
+    },
+    {
+      "Route": "css/Meeting/Participants.v0ivye6gsf.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\Meeting\\Participants.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AdnGWUVtswfH/iiRdBwJZYfVscZe2D+JZIaX6eP1jsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 15:51:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0ivye6gsf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Meeting/Participants.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AdnGWUVtswfH/iiRdBwJZYfVscZe2D+JZIaX6eP1jsA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.41ov3r17fg.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 15:55:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "41ov3r17fg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 15:55:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mHXLxkFgSU6JDXtsafl6tyhdZlvaqV28Och0aB5R31Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/Account/Login.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Account\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3FeCGzakRPFrzv9+w723B3NZ7F5iatYlDiNxlGo9L0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 19:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t3FeCGzakRPFrzv9+w723B3NZ7F5iatYlDiNxlGo9L0="
+        }
+      ]
+    },
+    {
+      "Route": "js/Account/Login.t3c0hwmvsa.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Account\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3FeCGzakRPFrzv9+w723B3NZ7F5iatYlDiNxlGo9L0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 19:27:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t3c0hwmvsa"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Account/Login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t3FeCGzakRPFrzv9+w723B3NZ7F5iatYlDiNxlGo9L0="
+        }
+      ]
+    },
+    {
+      "Route": "js/Account/Register.84gli0p5om.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Account\\Register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 19:26:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "84gli0p5om"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Account/Register.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Account/Register.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Account\\Register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1941"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 19:26:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2GaMj1dvazJ7q8P6M1ioAnGWkKZzpfVoLBdqdHIc2CA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Meeting/Add.3mmn0mqgi5.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Add.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1737"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 19:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3mmn0mqgi5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Meeting/Add.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/Meeting/Add.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Add.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1737"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 19:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O4pckt3irf4USAJeJLfKf/yw7AuvS2SeKVDIE7azW/Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/Meeting/Detail.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Detail.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 14:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Meeting/Detail.kpojma12le.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Detail.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 14:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kpojma12le"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Meeting/Detail.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NEECs7Pjbc4OTL93HEdNhlX5fto2nyUjmjes53gjV8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Meeting/Index.h1r5620z5e.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JeYyu+kDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 17:27:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h1r5620z5e"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Meeting/Index.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JeYyu+kDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo="
+        }
+      ]
+    },
+    {
+      "Route": "js/Meeting/Index.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\Meeting\\Index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JeYyu+kDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Jun 2025 17:27:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JeYyu+kDrxwfgvWpMgOFR4UE9D1odyCxI37CXj2icvo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.5ipweew5fc.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 17:59:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\furka\\Desktop\\Projeler\\MeetingApp\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 30 May 2025 17:59:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    }
+  ]
+}

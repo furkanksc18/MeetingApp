@@ -1,0 +1,45 @@
+@model Meeting
+
+<div class="meeting-form">
+    <h1>Toplantı Oluşturma Formu</h1>
+
+    <form action="Add" method="post">
+        <div class="form-group">
+            <label asp-for="Name">Toplantı Başlığı</label>
+            <input type="text" asp-for="Name" placeholder="Örn: Yeni Proje Lansmanı" required />
+            <span asp-validation-for="Name" class="validation-message"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Type">Toplantı Türü</label>
+            <select asp-for="Type" required>
+                <option value="">Toplantı türü seçin</option>
+                <option value="Sunum">Sunum</option>
+                <option value="İç Toplantı">İç Toplantı</option>
+                <option value="Müşteri Toplantısı">Müşteri Toplantısı</option>
+                <option value="Planlama">Planlama</option>
+            </select>
+            <span asp-validation-for="Type" class="validation-message"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Location">Buluşma Yeri</label>
+            <input type="text" asp-for="Location" placeholder="Örn: Ana Konferans Salonu" required />
+            <span asp-validation-for="Location" class="validation-message"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Date">Toplantı Tarihi ve Saati</label>
+            <input type="datetime-local" asp-for="Date" required />
+            <span asp-validation-for="Date" class="validation-message"></span>
+        </div>
+
+        <button type="submit" class="submit-btn">
+            <i class="fas fa-plus"></i> Toplantı Oluştur
+        </button>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/js/Meeting/Add.js"></script>
+}

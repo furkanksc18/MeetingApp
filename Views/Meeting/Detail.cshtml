@@ -1,0 +1,39 @@
+@model Meeting
+
+<div class="meeting-detail">
+    <div class="meeting-header">
+        <h1>@Model.Name</h1>
+        <span class="meeting-type">@Model.Type</span>
+    </div>
+
+    <div class="meeting-info-grid">
+        <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="info-content">
+                <h3>Konum</h3>
+                <p>@Model.Location</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <i class="fas fa-calendar"></i>
+            <div class="info-content">
+                <h3>Tarih ve Saat</h3>
+                <p>@Model.Date.ToString("dd/MM/yyyy HH:mm")</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="meeting-actions">
+        <a asp-action="Participants" asp-route-MeetingId="@Model.Id" class="btn btn-primary">
+            <i class="fas fa-users"></i> Katılımcı Listesi
+        </a>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Geri Dön
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Meeting/Detail.js"></script>
+}

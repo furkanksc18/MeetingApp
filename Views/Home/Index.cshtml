@@ -1,0 +1,65 @@
+@model IEnumerable<Meeting>
+
+<div class="home-container">
+    <div class="hero-section">
+        <h1>Toplantı Uygulamasına Hoş Geldiniz</h1>
+        <p>En popüler toplantılara katılın, yeni bağlantılar kurun ve işinizi büyütün.</p>
+    </div>
+
+    <div class="meeting-list">
+        <div class="header-section">
+            <h1>En Çok Katılımcılı Toplantılar</h1>
+            <a asp-controller="Home" asp-action="About" class="btn-about">
+                <i class="fas fa-info-circle"></i> Hakkımızda
+            </a>
+        </div>
+        
+        <div class="meetings-grid">
+            @foreach (var meeting in Model)
+            {
+                <div class="meeting-card">
+                    <div class="meeting-header">
+                        <h2 class="meeting-title">@meeting.Name</h2>
+                        <span class="meeting-type">@meeting.Type</span>
+                    </div>
+                    
+                    <div class="meeting-details">
+                        <div class="meeting-info">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>@meeting.Location</span>
+                        </div>
+                        <div class="meeting-info">
+                            <i class="fas fa-calendar"></i>
+                            <span>@meeting.Date.ToString("dd/MM/yyyy HH:mm")</span>
+                        </div>
+                    </div>
+                    
+                    <div class="meeting-actions">
+                        <a asp-action="Join" asp-route-MeetingId="@meeting.Id" 
+                           class="btn btn-primary"
+                           onclick="handleJoinClick(event, @User.Identity?.IsAuthenticated.ToString().ToLower())"
+                           onmouseover="handleJoinHover(event, @User.Identity?.IsAuthenticated.ToString().ToLower())"
+                           onmouseleave="handleJoinLeave()">
+                            <i class="fas fa-sign-in-alt"></i> Katıl
+                        </a>
+                        <a asp-controller="Meeting" asp-action="Detail" asp-route-MeetingId="@meeting.Id" class="btn btn-secondary">
+                            <i class="fas fa-info-circle"></i> Detaylar
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h2>Hemen Toplantıya Katılın</h2>
+        <p>İş ağınızı genişletmek ve yeni fırsatlar keşfetmek için toplantılarımıza katılın.</p>
+        <a asp-controller="Meeting" asp-action="Index" class="btn-cta">
+            <i class="fas fa-calendar-plus"></i> Tüm Toplantıları Gör
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Meeting/Index.js"></script>
+}

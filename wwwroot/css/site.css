@@ -1,0 +1,161 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding-top: 90px;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    color: #1a1a1a;
+}
+
+/* Layout Components */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-container {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 2rem;
+}
+
+.flex-container li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 0.5rem 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.flex-container li a:not(.btn):after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2563eb;
+    transition: width 0.3s ease;
+}
+
+.flex-container li a:not(.btn):hover:after {
+    width: 100%;
+}
+
+.flex-container li a:not(.btn):hover {
+    color: #2563eb;
+}
+
+/* Navbar Buttons */
+.flex-container li a.btn {
+    padding: 0.5rem 1.25rem;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.flex-container li a.btn i {
+    font-size: 0.875rem;
+}
+
+.flex-container li a.btn-login {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+.flex-container li a.btn-login:hover {
+    background-color: #2563eb;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.flex-container li a.btn-register {
+    background-color: #2563eb;
+    color: white;
+    border: 1px solid #2563eb;
+}
+
+.flex-container li a.btn-register:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.flex-container li a.btn-create {
+    background-color: #10b981;
+    color: white;
+    border: 1px solid #10b981;
+}
+
+.flex-container li a.btn-create:hover {
+    background-color: #059669;
+    border-color: #059669;
+    transform: translateY(-1px);
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+    }
+    
+    .flex-container {
+        gap: 1.2rem;
+    }
+
+    .flex-container li a.btn {
+        padding: 0.4rem 1rem;
+        font-size: 0.8125rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .flex-container {
+        gap: 0.8rem;
+    }
+
+    .flex-container li a.btn {
+        padding: 0.35rem 0.75rem;
+    }
+}

@@ -1,0 +1,54 @@
+@model List<MeetingMapUser>
+
+<div class="participants-page">
+    <div class="page-header">
+        <h1>@ViewBag.Meeting.Name - Katılımcı Listesi</h1>
+        <a asp-action="Detail" asp-route-MeetingId="@ViewBag.Meeting.Id" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Toplantı Detayına Dön
+        </a>
+    </div>
+
+    <div class="meeting-info">
+        <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="info-content">
+                <h3>Konum</h3>
+                <p>@ViewBag.Meeting.Location</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <i class="fas fa-calendar"></i>
+            <div class="info-content">
+                <h3>Tarih ve Saat</h3>
+                <p>@ViewBag.Meeting.Date.ToString("dd/MM/yyyy HH:mm")</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="participants-section">
+        <div class="section-header">
+            <h2>Katılımcılar</h2>
+            <span class="participant-count">@Model.Count Katılımcı</span>
+        </div>
+
+        <div class="participants-list">
+            @foreach (var participant in Model)
+            {
+                <div class="participant-card">
+                    <div class="participant-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="participant-info">
+                        <h4>@participant.User.Name @participant.User.Surname</h4>
+                        <p>@participant.User.Email</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/Meeting/Participants.js"></script>
+}

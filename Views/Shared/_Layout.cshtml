@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+    @{
+        var controller = ViewContext.RouteData.Values["controller"].ToString();
+        var action = ViewContext.RouteData.Values["action"].ToString();
+        var cssPath = $"~/css/{controller}/{action}.css";
+    }
+    <link rel="stylesheet" href="@Url.Content(cssPath)">
+    <link rel="stylesheet" href="@Url.Content("~/css/site.css")">
+    
+    <title>MeetingApp</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <p><a href="/">Logo</a></p>
+            <ul class="flex-container">
+                <li><a href="/Meeting/Index">Toplantılar</a></li>
+                @if(User.Identity.IsAuthenticated){
+                    <li><a href="/Meeting/Add" class="btn btn-create"><i class="fas fa-plus"></i> Toplantı Oluştur</a></li>
+                    <li><i class="fa-solid fa-bell"></i></li>
+                    <li><i class="fa-regular fa-user"></i></li>
+                }
+                else{
+                    <li><a href="/Account/Login" class="btn btn-login">Giriş Yap</a></li>
+                    <li><a href="/Account/Register" class="btn btn-register">Kayıt Ol</a></li>
+                }
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        @RenderBody()
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
